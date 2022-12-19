@@ -5,19 +5,17 @@
     --Brightorange: hsl(31, 77%, 52%);
     --Darkcyan: hsl(184, 100%, 22%);
     --Verydarkcyan: hsl(179, 100%, 13%);
-
+ 
     --Transparentwhite: hsla(0, 0%, 100%, 0.75);
     --Verylightgray: hsl(0, 0%, 95%);
 
 }
-
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lexend Deca', 'Big Shoulders Display';
-
 }
 
 body {
@@ -28,15 +26,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.container {
-    max-width: 100%;
-    min-height: 375px;
-    padding: 10%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 .btn {
@@ -61,29 +50,22 @@ body {
     align-items: flex-start;
     justify-content: space-around;
 
-
 }
 
 .card1 {
     background-color: var(--Brightorange);
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-
-
-
 }
 
 .card2 {
     background-color: var(--Darkcyan);
-
-
 }
 
 .card3 {
     background-color: var(--Verydarkcyan);
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-
 }
 
 .card__title {
@@ -92,7 +74,6 @@ body {
     font-size: 32px;
     color: var(--Verylightgray);
     text-transform: uppercase;
-
 }
 
 
@@ -101,9 +82,6 @@ body {
     color: var(--Transparentwhite);
     font-size: 12px;
     line-height: 20px;
-
-
-
 }
 
 .card__btn {
@@ -124,13 +102,11 @@ body {
 .card_btn2 {
     background-color: var(--Verylightgray);
     color: var(--Darkcyan);
-
 }
 
 .card_btn3 {
     background-color: var(--Verylightgray);
     color: var(--Verydarkcyan);
-
 }
 
 @media(max-height: 430px) {
@@ -159,7 +135,6 @@ body {
         border-top-right-radius: 0px;
     }
 }
-
 
 .link {
     position: fixed;
